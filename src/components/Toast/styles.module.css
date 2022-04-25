@@ -1,0 +1,93 @@
+.toast{
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.closeToast{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    align-self: flex-end;
+}
+
+.toastContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.toastType{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.toastType p{
+    text-transform: uppercase;
+}
+
+.bottom-right{
+    bottom: 1rem;
+    right: 1rem;
+    animation: toast-in-right 3s forwards;
+}
+
+.success{
+    background-color: var(--green);
+    color: var(--dark-green);
+}
+
+.success .closeToast{
+    color: var(--dark-green);
+}
+
+.error{
+    background-color: var(--red);
+    color: var(--dark-red);
+}
+
+.error .closeToast{
+    color: var(--dark-red);
+}
+
+.info{
+    background-color: var(--yellow);
+    color: var(--dark-yellow);
+}
+
+.info .closeToast{
+    color: var(--dark-yellow);
+}
+
+.warning{
+    background-color: var(--orange);
+    color: var(--dark-orange);
+}
+
+.warning .closeToast{
+    color: var(--dark-orange);
+}
+
+@keyframes toast-in-right{
+    0%{
+        transform: translateX(100%);
+    }
+    20%{
+        transform: translateX(0%);
+    }
+    40%{
+        transform: translateX(0%);
+    }
+    60%{
+        transform: translateX(0%);
+    }
+    80%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(150%);
+    }
+}

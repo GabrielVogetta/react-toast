@@ -1,0 +1,14 @@
+.mainHeader{
+    width: 100%;
+    text-align: center;
+}
+
+.title{
+    font-size: 3vh;
+}
+
+@media(min-width: 600px){
+    .title{
+        font-size: 5vh;
+    }
+}
