@@ -20,3 +20,17 @@
 
 ## Assets utilizados:
 - Ícones SVG em <a href='https://iconmonstr.com/'>Iconmonstr</a>
+
+## Imagens
+<div align='center'>
+    <img width='50%' src='https://res.cloudinary.com/dzugtpcap/image/upload/v1654799042/my-projects/react-toasts/1_f3tq3c.png'/>
+</div>
+<div align='center'>
+    <img width='50%' src='https://res.cloudinary.com/dzugtpcap/image/upload/v1654799087/my-projects/react-toasts/2_xpwtpv.png'/>
+</div>
+<div align='center'>
+    <img width='50%' src='https://res.cloudinary.com/dzugtpcap/image/upload/v1654799124/my-projects/react-toasts/3_mm7isy.png'/>
+</div>
+<div align='center'>
+    <img width='50%' src='https://res.cloudinary.com/dzugtpcap/image/upload/v1654799159/my-projects/react-toasts/4_lo4gxb.png'/>
+</div>
